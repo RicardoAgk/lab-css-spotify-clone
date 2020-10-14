@@ -1,8 +1,174 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 
 Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: 1A1A1A
+}
+
+}
+.nav-bar {
+    position: fixed;
+    object-position: 0 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.nav-bar img{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    float: left
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration: none}
+
+.nav-bar ul{
+        list-style: none; 
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px
+      }
+
+.nav-bar li{
+    margin: 20px 40px 0px;
+    font-size: 20px
+}
+
+.center {
+        height: 600px;
+        background-image: url('../images/landing.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px
+    }
+    
+
+.center h1{
+    color:white;
+    text-align: center;
+    margin: 10px;
+    font-size: 6em;
+    font-weight: 100;
+}
+
+.center article{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 300px
+}
+
+.logos{
+    margin-bottom: 100px
+}
+.logos h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    text-align: center;
+    margin: 30px 530px;
+    border-bottom: solid;
+    border-color: #00B172;
+    
+}
+.logos section{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    text-align: center; 
+    margin: auto 70px
+}
+.logos h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: #00B172
+}
+
+.logos article{
+    width: 200px
+}
+.logos img{
+    width: 150px
+}
+.green{
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    color: white
+}
+.green div{
+    width: 600px;
+    padding-top: 50px
+}
+.kanye{
+    width: 300px;
+    padding: 30px;
+    float: right
+}
+
+.spotifylogo{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    
+}
+
+.spotifylogo:hover{
+    animation-name: salta;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes salta{
+    0%, 100%, 50%, 80% {
+        transform: translateY(0)
+    }
+
+    40% {
+        transform: translateY(-30px)
+    }
+
+    60% {
+        transform: translateY(-15px)
+    }
+}
+
+.green h2{
+    font-size: 43px;
+    width: 580px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 30px
+}
+
+.green h3{
+    font-size: 30px;
+    margin: 15px 0
+}
+
+.green p{
+    font-size: 25px;
+    margin: 15px 0;
+    width: 300px;
+    font-weight: 100;
+}
