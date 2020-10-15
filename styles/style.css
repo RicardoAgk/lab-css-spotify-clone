@@ -7,20 +7,16 @@ White: #FFF
 
 */
 *{
-    margin: 0;
-    padding: 0;
     font-family: Helvetica;
     color: 1A1A1A
 }
 
-}
 .nav-bar {
+    overflow: hidden;
     position: fixed;
-    object-position: 0 0;
+    top: 0;
+    width: 100%;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
 }
 
 .nav-bar img{
@@ -32,6 +28,7 @@ White: #FFF
 
 .nav-bar a{
     color: black;
+    display: block;
     text-decoration: none}
 
 .nav-bar ul{
